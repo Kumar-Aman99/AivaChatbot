@@ -1,0 +1,248 @@
+/* src/components/Avia.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Poppins, sans-serif;
+}
+
+.header-bar {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    background-color: #435334;
+    height: 5rem;
+}
+
+.header-bar-logo span {
+    font-family: Poppins;
+    font-weight: 700;
+    padding-left: 2rem;
+}
+
+.header-bar-logo {
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+.header-bar-logo-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 43rem;
+    height: 5rem;
+}
+
+.header-bar-list-button ul {
+    display: flex;
+}
+
+.header-bar-list-button ul li {
+    list-style-type: none;
+}
+
+.header-image-button img {
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+}
+
+.header-bar-logo-bar {
+    background-color: #39462C;
+}
+
+.header-bar-list-button ul {
+    height: 3rem;
+    width: 15.7rem;
+    border: 1px solid white;
+    border-radius: 2rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding-right: 1rem;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+.list1 {
+    font-size: 13px;
+    background-color: #CEDEBD;
+    padding: 10px 20px;
+    border-radius: 3rem;
+}
+
+.list2 {
+    font-size: 13px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    bottom: 20px;
+    height: 37rem;
+    width: 14.2rem;
+    background-color: #435334;
+}
+
+.sidebar i, p {
+    color: black;
+}
+
+.sidebar-inner {
+    display: flex;
+    height: 3rem;
+    width: 11rem;
+    background-color: #FFEED6;
+    color: black;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    font-size: 14px;
+    gap: 0.5rem;
+}
+
+.sidebar h3 {
+    height: 3rem;
+    width: 11rem;
+    background-color: #39462C;
+    color: white;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    margin-top: 3rem;
+}
+
+.outer-sidebar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-options {
+    color: black;
+    border: 1px solid black;
+    height: 2rem;
+    width: 11rem;
+}
+
+.recommended-option {
+    position: relative;
+    top: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.recommended-task-options-area {
+    background-color: #FFEED6;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    right: 0px;
+    left: 14.2rem;
+    bottom: 0%;
+    top: 12%;
+    gap: 5rem;
+    z-index: -1;
+}
+
+.recommended-task-options-area h1 {
+    margin-left: 19rem;
+    text-align: center;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: -1rem;
+    line-height: 1.6ch;
+    opacity: 10%;
+    color: #39462C;
+    position: relative;
+    top: 30%;
+    right: 10rem;
+}
+
+.aiva {
+    font-size: 5.5rem;
+    color: #39462C;
+}
+
+.task-options h4, p {
+    color: #39462C;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.task-options {
+    border: 1px solid #BA9359;
+    height: 2.5rem;
+    position: relative;
+    left: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+
+.input-box input {
+    height: 2.7rem;
+    width: 39rem;
+    position: relative;
+    left: 1rem;
+    border: 1px solid #D6BC97;
+    background-color: #FFEED6;
+    padding-left: 1rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.task-options p {
+    font-weight: 200;
+}
+
+.input-box::placeholder {
+    margin-left: 2rem;
+    padding: 1rem;
+}
+
+.icon {
+    position: relative;
+    left: 0.7rem;
+    background-color: #39462C;
+    padding: 0.9rem;
+    top: 2px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.paragraph {
+    height: 32rem;
+    width: 40rem;
+    background-color: #EAF2E1;
+    position: relative;
+    right: 1rem;
+    top: 2rem;
+    bottom: 2rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #87A16B;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.paragraph b {
+    color: #87A16B;
+}
